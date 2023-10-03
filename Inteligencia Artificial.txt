@@ -1,0 +1,169 @@
+--------Qué es------👌
+La inteligencia Artificial (I.A.) es un campo que combina la ciencia informatica y los distintos tipos de datos robustos para permitir la resolución de problemas. Ademas estos sistemas utilizan algoritmos y datos para imitar la capacidad de razonamiento humano y pueden aplicarse en varias aplicaciones, desde reconocimiento de voz y visión por computadora hasta asistentes virtuales y conducción autónoma. En resumen, la I.A. es la creación de máquinas que pueden pensar y tomar decisiones de manera similar a los seres humanos.
+
+--------------------------------------------------------------------------------------------------------------------
+-----Historia de la I.A----👌
+La Inteligencia Artificial (I.A.) se origina en los años 1940-1950, por el matemático britanico Alan Turing, desarollo la idea de una maquina universal de Turing, donde se desarrollaron los primeros programas como lo es el ajedrez y lenguaje de programación.
+Uno de los primeros avances fue 1950-1960 donde se realizo la creación de programas capaces de resolver problemas matemáticos y lógicos. John McCarthy propuso el termino de "Inteligencia Artificial" en 1956. En esta decada se organizo la Conferencia de Dartmouth y este se considera un punto de partida en el campo de la I.A.
+En la decada de 1960-1970 se enfocaron mas en el desarollo de sistemas capaces de imitar la toma de decisiones de los humanos en campos especificios, donde tambien se hicieron investigaciones para las tecnicas de aprendizaje automático.
+Conforme fue pasando el tiempo hubo un interes de renovar en las redes neuronales artificiales, que estas harian el funcionamiento de un cerebro virtual, pero fue en esta decada de 1980-1990 que experimento un periodo bajo de expectativas llamado "El invierno de la I.A.".
+De los 2000 en adelante la I.A. experimentó una evolución impresionante gracias a los avances en el aprendizaje profundo y el aumento en la potencia de cálculo. Las aplicaciones de la I.A. se expandieron a campos como la visión por computadora, el procesamiento del lenguaje natural, los vehículos autónomos, chatbots, videojuegos, entre otros.
+
+--------------------------------------------------------------------------------------------------------------------
+-----Tipos de I.A----👌
+
+	-----I.A Debil----🔼
+	La IA débil, también llamada IA estrecha o Inteligencia artificial estrecha (ANI), es una IA entrenada y enfocada para realizar tareas específicas. La IA débil impulsa la mayor parte de la IA que nos rodea hoy. "Estrecho" podría ser un descriptor más preciso para este tipo de IA, ya que no tiene nada de débil; permite algunas aplicaciones muy potentes, como Siri de Apple, Alexa de Amazon, IBM Watson y vehículos autónomos.
+	
+	-----I.A Robusta----🔼
+	La inteligencia artificial robusta esta conformada por la inteligencia 	artificial general (IAG) y la superinteligencia artificial (SIA). Esto 	permite que una 	maquina o sistema tenga la inteligencia de un ser humano, este sería autoconsciente y con la capacidad de resolver problemas, aprender y planificar un 	futuro. 
+	Esta misma I.A robusta incluso puede superar la inteligencia y capacidad del cerebro humano, pero hasta el momento todavia es completamente teórica y 	aun no 	tiene ejemplos practicos actualmente, no significa que 	los desarolladores esten
+	investigando su desarollo. 
+
+--------------------------------------------------------------------------------------------------------------------
+-----Uso en Empresas y/u Organizaciones----👌
+
+	-----------Uso de la I.A. en la educación------------🔼
+	La Inteligencia Artificial (IA) ha revolucionado la educación, transformando la forma en que aprendemos. En este análisis, exploraremos cómo la IA ha personalizado y facilitado el aprendizaje, adaptándose a las necesidades individuales de los estudiantes. Más que una herramienta, la IA se ha convertido en un motor de cambio, redefiniendo la experiencia educativa en aulas más inteligentes y accesibles. Desde ajustar la enseñanza hasta prever el rendimiento estudiantil, la IA está abriendo nuevas posibilidades educativas. Este cambio no solo se trata de adquirir conocimientos, sino de cultivar habilidades prácticas y pensamiento crítico, preparando a los estudiantes para enfrentar desafíos en un mundo en constante evolución. Acompáñanos en este análisis para entender cómo la IA está dando forma al futuro de la educación.
+
+		°Personalización del aprendizaje: La I.A adapta el contenido educativo para satisfacer las necesidades y el ritmo de aprendizaje de cada estudiante.
+
+		°Tutoría virtual: Los sistemas de I.A ofrecen tutorías en línea personalizadas y proporcionan retroalimentación inmediata a los estudiantes.
+	
+		°Evaluación automatizada: La I.A evalúa/califica automáticamente el trabajo de los estudiantes y ahorra tiempo a los docentes.	
+
+		°Recomendación de contenido: Los algoritmos de I.A recomiendan recursos de aprendizaje basados en el rendimiento y los intereses del estudiante.
+
+		°Análisis de datos educativos: La I.A analiza grandes conjuntos de datos educativos para identificar patrones y 	tendencias.
+
+		°Automatización de tareas administrativas: La I.A ayuda con tareas como la programación de clases y la gestión de registros.
+
+		°Traducción y accesibilidad: La I.A traduce y hace accesible el contenido educativo.
+
+		°Educación en línea: La I.A mejora las plataformas de aprendizaje en línea.
+
+		°Detección de problemas de aprendizaje: La I.A identifica problemas de aprendizaje y comportamiento tempranos.
+
+		°Investigación educativa: La I.A se utiliza en estudios e investigaciones educativas.
+
+
+	---------Uso de la I.A. en el campo laboral------------🔼
+	La inteligencia artificial (IA) está cambiando la forma en que trabajamos.Esta tecnología innovadora automatiza tareas, toma decisiones más inteligentes y crea 	nuevas oportunidades en diferentes áreas laborales. En este resumen, exploraremos cómo la I.A está remodelando nuestro mundo laboral.
+
+	La I.A se utiliza para automatizar tareas repetitivas y rutinarias, lo 	que permite a los trabajadores centrarse en tareas más estratégicas y creativas, asi 	mismo puede analizar grandes volúmenes de datos de manera rápida y precisa, lo que ayuda en la toma de decisiones informadas en áreas como la gestión 	financiera, la logística y la planificación empresarial lo que se le conoce como Procesamiento de datos y análisis.
+
+
+	Tambien ayudan los asistentes virtuales basados en I.A y los chatbots se utilizan para atender preguntas frecuentes y tareas de atención al cliente, mejorando 	la eficiencia.
+
+	Entreo otros ejemplos:
+
+		°Selección de candidatos e identificación de talentos
+ 
+		°La IA se emplea para detectar y prevenir amenazas cibernéticas
+
+		°En el sector de la salud para el diagnóstico médico, la gestión de registros de pacientes y la personalización de tratamientos
+
+		°Automatización en la industria.
+
+		°Predicción de demanda.
+
+		°Traducción de idiomas.
+
+	---Uso de la I.A. en el entretenimiento---🔼
+	La inteligencia artificial (I.A) se ha convertido en un elemento fundamental en la industria del entretenimiento, ofreciendo nuevas experiencias y 	oportunidades 	creativas en diversas áreas.
+
+	La I.A está transformando la industria del entretenimiento ya que se utiliza para ofrecer recomendaciones personalizadas en servicios como el streaming, 	mejorar la creación de contenido, como música y arte, y generar efectos especiales y animaciones impresionantes en cine y videojuegos. Además, la I.A se emplea 	en juegos para crear personajes más inteligentes y desafiantes, adaptados a los jugadores como lo es la detectación de emociones en audiencias y ajustar la 	experiencia en 	consecuencia.
+
+	En el ámbito de la realidad virtual (RV) y aumentada (RA), la IA se encarga de crear experiencias más emocionantes.La I.A se utiliza para interactuar con 	usuarios en redes sociales y aplicaciones de entretenimiento a través de chatbots y analiza datos de audiencia para comprender mejor al público y 	personalizar o modificar el contenido.
+
+--------------------------------------------------------------------------------------------------------------------
+-----Lenguajes para desarollar una I.A----👌 Recursos
+	
+	Existen varios lenguajes de programación que se pueden utilizar en el desarrollo de inteligencia artificial (I.A), pero la elección depende de las 	preferencias personales, el tipo de proyecto de I.A y las bibliotecas que ofrece cada uno. Algunos lenguajes comunes son: 
+		
+	-----Software Propietario-----🔼
+		°Python : Ademas de ser uno de los mas populares, tiene una facilidad de uso y una amplia variedad de bibliotecas para el desarollo de I.A
+
+		°R : Se especializa en estadisticas y analisis de datos, utilizado en la invesitigación y analisis de proyectos de I.A
+
+		°Java : Es un lenguaje solido y versatil que utiliza aplicaciones de I.A, como lo serian las empresariales, reconocimiento de voz, entre otros 
+
+		°C++ : Se utiliza en aplicaciones de I.A donde se necesita un alto nivel de rendimiento (visión por computadora y procesamiento de imagenes)
+
+		°Lisp : No es tan popular, pero este lenguaje es capaz de manipular y procesar datos simbolicos
+
+		°Prolog : Se utiliza principalmente en aplicaciones de razonamiento y lógica artificial, como sistemas expertos.
+
+		°JavaScript : Se utiliza en aplicaciones web de IA, como chatbots y aplicaciones de procesamiento de lenguaje natural que se ejecutan en navegadores.
+
+		°Scala : Es un lenguaje que se ejecuta en la plataforma Java y es utilizado en proyectos de aprendizaje automático y procesamiento de datos.
+
+		°Ruby : Se utiliza en aplicaciones de IA, especialmente en el procesamiento de texto y lenguaje natural.
+
+		°Julia : es un lenguaje de programación diseñado específicamente para el cómputo científico y numérico, y se utiliza en proyectos de IA que requieren 			un alto rendimiento.
+
+		-------Codigo Abierto--------🔼
+		°Jupyter: Es un entorno de desarrollo interactivo basado en web para blocs de notas, código y datos de Jupyter.
+
+		°GraphPipe: Es un protocolo y una recopilación de software diseñados para simplificar el despliegue del modelo de aprendizaje automático y disociarlo 			de implementaciones de modelos específicos del marco.
+
+		°TensorFlow: Es una plataforma de código abierto integral para el aprendizaje automático.
+
+		°Apache SINGA: Es un proyecto de nivel superior de Apache que se centra en la formación distribuida de modelos de aprendizaje profundo y aprendizaje 			automático.
+
+		°Shogun: Es una biblioteca de aprendizaje automático de código abierto que ofrece una amplia gama de métodos de aprendizaje automático unificados y 			eficientes.
+
+		°Apache Mahout: Es un marco algebra lineal distribuido y Scala DSL matemáticamente expresivo diseñado para permitir a matemáticos, estadísticos y 			científicos de datos implementar rápidamente sus propios algoritmos.
+
+		°Apache Spark MLlib: MLlib es la biblioteca de aprendizaje automático ampliable de Apache Spark.
+
+		°Oryx 2: Es una realización de la arquitectura lambda basada en Apache Spark y Apache Kafka, pero con una especialización para el aprendizaje 				automático a gran escala en tiempo real.
+
+		°Accord.NET Framework: Es un marco de aprendizaje automático NET combinado con bibliotecas de procesamiento de audio e imagen completamente escritas e			n C#.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+-----Personajes Destacadaos----👌
+	El desarrollo de la inteligencia artificial (I.A) ha sido impulsado por numerosos investigadores, científicos y profesionales a lo largo de los años.Algunos 	ejemplos son estos: 
+
+	°Alan Turing: Considerado uno de los padres de la computación y la I.A, Alan Turing fue un matemático británico que formuló la idea de la "máquina universal", 		que sirvió como base teórica para las computadoras modernas. También desarrolló la "Prueba de Turing" para evaluar la inteligencia de las máquinas.
+
+	°John McCarthy: John McCarthy dio el término "inteligencia artificial" en 1956 y fue uno de los personajes en el desarrollo de los primeros lenguajes de 		programación para I.A, incluido LISP.
+
+	°Marvin Minsky: Junto con John McCarthy, Marvin Minsky fue un líder en el campo de la I.A en las décadas de 1950 y 1960. Contribuyó al desarrollo de redes 		neuronales y sistemas expertos.
+
+	°Herbert A. Simon: Herbert Simon fue un personaje en la I.A y la psicología cognitiva. Junto con Allen Newell, desarrolló el programa Logic Theorist, uno de 		los primeros programas de IA.
+
+	°Geoffrey Hinton: Conocido como el "padre de las redes neuronales profundas", Geoffrey Hinton hizo contribuciones fundamentales, lo que revoluciono el campo de 		la I.A en las últimas décadas.
+
+	°Yann LeCun: Yann LeCun es otro destacado en el campo del aprendizaje profundo y las redes neuronales convolucionales (CNN). Realizo importantes avances en la 		visión por computadora y el procesamiento de imágenes.
+
+	°Andrew Ng: Andrew Ng es un reconocido experto en el aprendizaje automático y la I.A. También es conocido por sus cursos en línea sobre aprendizaje automático.
+
+	°Demis Hassabis: Demis Hassabis es el cofundador de DeepMind, una empresa de IA adquirida por Google en 2014. Ha realizado avances significativos en áreas como 		el aprendizaje profundo y el juego de ajedrez.
+
+	°Elon Musk: Aunque es más conocido por su trabajo en SpaceX y Tesla, Elon Musk también ha sido un defensor de la investigación en IA, cofundando OpenAI para 		promover la IA segura y beneficiosa.
+
+
+
+
+------- R  E  F  E  R  E  N  C  I  A  S ----------
+
+°https://www.ibm.com/mx-es/topics/artificial-intelligence?mhsrc=ibmsearch_a&mhq=inteligencia%20artificial
+
+°https://es.unesco.org/themes/tic-educacion/inteligencia-artificial
+
+°A Abeliuk, C Gutiérrez - Revista Bits de Ciencia, 2021 - revistasdex.uchile.cl
+
+°James Moor. “The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years”. AI Magazine 27(4), 2006. https://doi.
+org/10.1609/aimag.v27i4.1911.
+
+°https://www.oracle.com/mx/artificial-intelligence/
+
+°[3] Wheeler, Gregory. “Bounded Rationality
+
+° https://developer.oracle.com/es/technologies/ai-ml.html
+
+°https://static0planetadelibroscom.cdnstatics.com/libros_contenido_extra/40/39308_Inteligencia_artificial.pdf
+
+°

@@ -635,6 +635,22 @@ header{
     }
 }
 
+.map-sitio{
+    margin: 10%;
+    
+    & h2{
+        font-size: 3rem;
+    }
+
+    & ul{
+        margin-top: 1rem;
+
+        & li{
+            margin: 1rem;
+        }
+    }
+}
+
 .footer {
     padding: 1.5rem 0;/*espacio por dentro*/
     margin-top: .3rem;/*espacio por fuera*/

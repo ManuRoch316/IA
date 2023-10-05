@@ -1,0 +1,171 @@
+/*Barra de navegación*/
+@media(max-width: 950px){
+    .header label{
+        display: initial;
+    }
+
+    .header{
+        padding: 20px 10%;
+    }
+
+    .header .navigation{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        right: 0%;
+        background-color: rgba(1, 1, 1, 0.7);
+        display: none;
+    }
+
+    .header .navigation ul li{
+        width: 100%;
+    }
+
+    .header .navigation ul li a{
+        padding:  8px 30px 8px 10%;
+    }
+
+    .header .navigation ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0%;
+    }
+
+    .header .navigation ul li ul li{
+        background-color: rgba(1, 1, 1, 0.7);
+    }
+
+    .header .navigation ul li ul li{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    #toggle:checked ~ .navigation{
+        display: block;
+    }
+}
+
+
+
+
+
+/*      RESPONSIVIDAD EN LAS DEMAS PAGINAS      */
+
+@media (max-width: 576px) {
+    .hero {
+        margin-top: 25%;
+    }
+
+    #titulo {
+        font-size: 2rem;
+    }
+
+    #subtitle {
+        font-size: 1.5rem;
+    }
+
+    #concept img {
+        width: 100%;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .hero {
+        margin: 8%;
+    }
+
+    #titulo {
+        font-size: 2.5rem;
+    }
+
+    #subtitle {
+        font-size: 1.8rem;
+    }
+
+    #concept img {
+        width: 80%;
+    }
+}
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        margin-top: 15%;
+    }
+
+    #titulo {
+        font-size: 3rem;
+    }
+
+    #subtitle {
+        font-size: 2rem;
+    }
+
+    & p{
+        font-size: 18px;
+    }
+
+    & #concept {
+        & img {
+            width: 30%;
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) {
+    .hero {
+        margin: 10%;
+    }
+
+    #titulo {
+        font-size: 3.5rem;
+    }
+
+    #subtitle {
+        font-size: 2.5rem;
+    }
+
+    #concept img {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+/*          FOOTER          */
+/* Estilos para móviles */
+@media (max-width: 576px) {
+    footer {
+        width: 100%;
+
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    footer {
+        width: 100%;
+    }
+}
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    footer {
+        width: 100%;
+        bottom: 10%
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) {
+    footer {
+        width: 100%;
+    }
+}
+

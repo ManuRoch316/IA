@@ -1,0 +1,451 @@
+/*~~~~~~~MEDIA QUERY----RESPONSIVIDAD~~~~~~~*/
+
+/*Barra de navegación*/
+@media(max-width: 950px){
+    .header label{
+        display: initial;
+    }
+
+    .header{
+        padding: 20px 10%;
+    }
+
+    .header .navigation{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        right: 0%;
+        background-color: rgba(1, 1, 1, 0.7);
+        display: none;
+    }
+
+    .header .navigation ul li{
+        width: 100%;
+    }
+
+    .header .navigation ul li a{
+        padding:  8px 30px 8px 10%;
+    }
+
+    .header .navigation ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0%;
+    }
+
+    .header .navigation ul li ul li{
+        background-color: rgba(1, 1, 1, 0.7);
+    }
+
+    .header .navigation ul li ul li{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    #toggle:checked ~ .navigation{
+        display: block;
+    }
+}
+
+
+/*Que es la IA//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*@media screen and (max-width: 950px){
+    .hero #titulo{
+        margin-top: 8rem;
+        font-size: 2.4rem;
+    }
+
+    .hero #subtitle{
+        font-size: 1.4rem;
+    }
+    .hero p{
+        font-size: 13px;
+    }
+
+    .hero #concept img{
+        width: 80%;
+    }
+
+    @media (min-width: 640px) and (max-width: 1380px){
+        .hero #concept img{
+            width: 75%;
+            margin-top: .8rem;
+        }
+    }
+}
+/*
+
+/*HISTORIA DE IA*/
+/* Estilo para pantallas medianas */
+@media(min-width: 768px) {
+    .hero {
+        margin: 5%;
+    }
+
+    .hero #titulo {
+        font-size: 2rem;
+    }
+
+    .hero #subtitle {
+        font-size: 1.5rem;
+    }
+
+    .hero #concept img {
+        width: 80%;
+    }
+}
+
+/* Estilo para pantallas grandes */
+@media(min-width: 1200px) {
+    .hero {
+        margin: 5%;
+    }
+
+    .hero #titulo {
+        font-size: 4rem;
+    }
+
+    .hero #subtitle {
+        font-size: 2rem;
+    }
+
+    .hero #concept img {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 950px){
+    .historia {
+        margin: 10% 8%;
+        margin-top: 8rem;
+
+        & p{
+            font-size: 16px;
+            float: left;
+        }
+    }
+    .title-historia {
+        font-size: 2rem;
+    }
+    
+    .video-history {
+        width: 100%;
+    }
+    
+    .dato, .dato2 {
+        margin-top: 2rem;
+    }
+}
+
+/*INTELIGENCIA ARTIFICIAL DEBIL///////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 950px){
+    .ia-debil{
+        margin: 35% 10%;
+        display: flex;
+        flex-direction: column;
+        
+        & .title-debil{
+            & h2{
+                font-size: 2rem;
+            }
+        }
+
+        & .content-debil{
+            flex-direction: column;
+
+            & p{
+                font-size: 18px;
+                float: initial;
+            }
+
+            & img{
+                width: 80%;
+                margin: 10% 0px;
+            }
+        }
+    }
+    /*
+    .title-debil{
+        margin: 30%;
+        font-size: 3rem;
+    }
+
+    .content-debil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    */
+}
+
+/*INTELIGENCIA ARTIFICIAL ROBUSTA*/
+@media (max-width: 950px){
+    .ia-robusta{
+        margin: 35% 10%;
+        display: flex;
+        flex-direction: column;
+        
+        & .title-robusta{
+            & h2{
+                font-size: 2rem;
+            }
+        }
+
+        & .content-robusta{
+            flex-direction: column;
+
+            & p{
+                font-size: 18px;
+                float: initial;
+            }
+
+            & img{
+                width: 80%;
+                margin: 10% 0px;
+            }
+        }
+    }
+}
+
+/*LENGUAJES DE CODIGO CERRADO*/
+@media (max-width: 950px){
+    .cod-cerrado{
+
+
+        & .title-cerrado{
+            margin-top: 8rem;
+            font-size: 2rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 1.3rem;
+        }
+
+        & p{
+            font-size: 18px;
+        }
+
+        & li{
+            font-size: 18px;
+        }
+
+        & .grid-cerrado{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & .cerrado{
+                margin: 1.2rem 0%;
+                width: 100%;
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/*Programacion ABIERTO~~~~~~~*/
+@media (max-width: 950px){
+    .cod-abierto{
+
+
+        & .title-abierto{
+            margin-top: 8rem;
+            font-size: 2rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 1.3rem;
+        }
+
+        & p{
+            font-size: 18px;
+        }
+
+        & li{
+            font-size: 18px;
+        }
+
+        & .grid-abierto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & .abierto{
+                margin: 1.2rem 0%;
+                width: 90%;
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+/*Personajes Destacados*/
+@media (max-width: 950px){
+    .personajes-ia{
+
+        & .title-personajes{
+            margin-top: 8rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        & .content-personajes{
+            font-size: 14px;
+        }
+    }
+}
+/*
+@media (max-width: 960px){
+    .title-personajes{
+        margin-top: 8rem;
+        font-size: 1rem;
+    }
+
+    .content-personajes{
+        font-size: 1.4rem;
+    }
+}
+*/
+
+
+/*EDUCACION IA*/
+@media (max-width: 950px){
+    .educativo{
+
+        & .title-educacion{
+            margin-top: 8rem;
+            font-size: 1.6rem;
+        }
+
+        & #concept-edu{
+            font-size: 18px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    font-size: 18px;
+                }
+    
+                & img{
+                    width: 93%;
+                }
+            }
+        }
+    }
+}
+
+/*IA INDUSTRIAL*/
+@media (max-width: 950px){
+    .laboral{
+
+        & .title-laboral{
+            margin-top: 8rem;
+            font-size: 1.6rem;
+        }
+
+        & #concept-lab{
+            font-size: 18px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    font-size: 18px;
+                }
+    
+                & img{
+                    width: 93%;
+                }
+            }
+        }
+    }
+}
+
+/*ENTRETENIMEINTO*/
+@media (max-width: 950px){
+    .entretenimiento{
+
+        & .title-entre{
+            margin-top: 8rem;
+            font-size: 1.6rem;
+        }
+
+        & #concept-entre{
+            font-size: 18px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    font-size: 18px;
+                }
+    
+                & img{
+                    width: 86%;
+                }
+            }
+        }
+    }
+}
+
+
+/*MAPA DE SITIO*/
+@media only screen and (max-width: 950px){
+    .map-sitio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10% 8%;
+        margin-bottom: 4%;
+        margin-top: 8rem;
+
+        & h2{
+            font-size: 2rem;
+            float: left;
+        }
+
+        & ul{
+            margin-bottom: 2rem;
+            
+            & li{
+                font-size: 18px;
+            }
+            
+        }
+    }
+}
+
+/*Footer*/
+@media (max-width: 600px){
+    footer{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        margin-bottom: 0%;
+        background-color: var(--black);
+    }
+}
+
+/* Estilo para el footer en pantallas grandes */
+@media(min-width: 1200px) {
+    footer {
+        font-size: 1rem;
+    }
+}

@@ -151,27 +151,27 @@
         }
 
         & .video-history{
-            width: 10%;
+            width: 5%;
         }
     
         & .dato{
     
             & h2{
-                font-size: 1.3rem;
+                font-size: .8rem;
             }
     
             & h3{
-                font-size: 1rem;
+                font-size: .6rem;
             }
     
             & p{
-                font-size: 16px;
+                font-size: 10px;
             }
     
             & div{
     
                 & img{
-                    width: 20%;
+                    width: 10%;
                 }
             }
         }
@@ -179,21 +179,21 @@
         & .dato2{
     
             & h2{
-                font-size: 1.3rem;
+                font-size: .8rem;
             }
     
             & h3{
-                font-size: 1rem;
+                font-size: .6rem;
             }
     
             & p{
-                font-size: 16px;
+                font-size: 10px;
             }
     
             & div{
     
                 & img{
-                    width: 16%;
+                    width: 1%;
                 }
             }
         }

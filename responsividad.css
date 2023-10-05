@@ -51,38 +51,51 @@
 @media (max-width: 576px) {
     .hero {
         margin-top: 25%;
-    }
 
-    #titulo {
-        font-size: 2rem;
-    }
-
-    #subtitle {
-        font-size: 1.5rem;
-    }
-
-    #concept img {
-        width: 100%;
-        margin-bottom: 10rem;
+        & #titulo {
+            font-size: 3rem;
+        }
+    
+        & #subtitle {
+            font-size: 1.5rem;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+        & #concept {
+            & img {
+                width: 90%;
+                margin-bottom: 60%;
+            }
+        }
     }
 }
 
 /* Estilos para tablets */
 @media (min-width: 577px) and (max-width: 768px) {
     .hero {
-        margin: 8%;
-    }
+        margin-top: 20%;
 
-    #titulo {
-        font-size: 2.5rem;
-    }
-
-    #subtitle {
-        font-size: 1.8rem;
-    }
-
-    #concept img {
-        width: 80%;
+        & #titulo {
+            font-size: 3rem;
+        }
+    
+        & #subtitle {
+            font-size: 1.5rem;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+        & #concept {
+            & img {
+                width: 90%;
+                margin-bottom: 60%;
+            }
+        }
     }
 }
 
@@ -90,23 +103,49 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .hero {
         margin-top: 15%;
-    }
 
-    #titulo {
-        font-size: 3rem;
+        & #titulo {
+            font-size: 3rem;
+        }
+    
+        & #subtitle {
+            font-size: 2rem;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+        & #concept {
+            & img {
+                width: 30%;
+                margin-bottom: 60%;
+            }
+        }
     }
+}
 
-    #subtitle {
-        font-size: 2rem;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        margin-top: 8%;
 
-    & p{
-        font-size: 18px;
-    }
-
-    & #concept {
-        & img {
-            width: 30%;
+        & #titulo {
+            font-size: 4rem;
+        }
+    
+        & #subtitle {
+            font-size: 2.6rem;
+        }
+    
+        & p{
+            font-size: 20px;
+        }
+    
+        & #concept {
+            & img {
+                width: 50%;
+                margin-bottom: 60%;
+            }
         }
     }
 }
@@ -114,19 +153,24 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) {
     .hero {
-        margin: 10%;
-    }
+        margin: 7%;
 
-    #titulo {
-        font-size: 3.5rem;
-    }
+        & #titulo {
+            font-size: 5rem;
+        }
+    
+        & #subtitle {
+            font-size: 2.6rem;
+        }
 
-    #subtitle {
-        font-size: 2.5rem;
-    }
-
-    #concept img {
-        width: 50%;
+        & p{
+            font-size: 20px;
+        }
+    
+        & #concept img {
+            width: 40%;
+            margin-bottom: 20%;
+        }
     }
 }
 
@@ -323,8 +367,7 @@
     }
 }
 
-/* Estilos para ordenadores */
-@media (min-width: 1025px) and (max-width: 1500px){
+@media (min-width: 900px) and (max-width: 1024px) {
     .historia{
         margin-top: 7%;
 
@@ -333,7 +376,71 @@
         }
     
         & p{
-            font-size: 23px;
+            font-size: 17px;
+        }
+
+        & .video-history{
+            width: 60%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.7rem;
+            }
+    
+            & h3{
+                font-size: 1.8rem;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 40%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.7rem;
+            }
+    
+            & h3{
+                font-size: 1.8rem;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px){
+    .historia{
+        margin-top: 7%;
+        margin-bottom: 5%;
+
+        & .title-historia{
+            font-size: 5rem;
+        }
+    
+        & p{
+            font-size: 20px;
         }
 
         & .video-history{
@@ -351,7 +458,7 @@
             }
     
             & p{
-                font-size: 16px;
+                font-size: 20px;
             }
     
             & div{
@@ -373,7 +480,7 @@
             }
     
             & p{
-                font-size: 16px;
+                font-size: 20px;
             }
     
             & div{
@@ -391,6 +498,458 @@
 
 
 
+/* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  IA DEBILES                      ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .ia-debil{
+        margin-top: 24%;
+
+        & .title-debil{
+            & h2{
+                font-size: 2.3rem;
+            }
+        }
+
+        & .content-debil{
+            display: flex;
+            flex-direction: column;
+
+            & p{
+                font-size: 15px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 50%;
+                margin-bottom: 33%;
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .ia-debil{
+        margin: 15% 18%;
+
+        & .title-debil{
+            & h2{
+                font-size: 1.8rem;
+            }
+        }
+
+        & .content-debil{
+            display: flex;
+            flex-direction: column;
+
+            & p{
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 60%;
+                margin-bottom: 35%;
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ia-debil{
+        margin: 15% 6%;
+
+        & .title-debil{
+            & h2{
+                font-size: 2.5rem;
+                
+            }
+        }
+
+        & .content-debil{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 40%;
+                margin-bottom: 8%;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .ia-debil{
+        margin-top: 8%;
+
+        & .title-debil{
+            & h2{
+                font-size: 2.5rem;
+                
+            }
+        }
+
+        & .content-debil{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 30%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .ia-debil{
+        margin-top: 5%;
+
+        & .title-debil{
+            & h2{
+                font-size: 4.3rem;
+                
+            }
+        }
+
+        & .content-debil{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 19px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 37%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  IA ROBUSTAS                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .ia-robusta{
+        margin-top: 25%;
+
+        & .title-robusta{
+            & h2{
+                font-size: 2.3rem;
+            }
+        }
+
+        & .content-robusta{
+            display: flex;
+            flex-direction: column;
+
+            & p{
+                font-size: 16px;
+                margin-bottom: 1rem;
+            }
+            & img{
+                width: 50%;
+            }
+        }
+    }
+    .footer{
+        margin-bottom: 30%;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .ia-robusta{
+        margin: 18% 15%;
+
+        & .title-robusta{
+            & h2{
+                font-size: 1.8rem;
+            }
+        }
+
+        & .content-robusta{
+            display: flex;
+            flex-direction: column;
+
+            & p{
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 65%;
+                margin-bottom: 35%;
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ia-robusta{
+        margin: 7% 6%;
+
+        & .title-robusta{
+            & h2{
+                font-size: 3.2rem;
+                
+            }
+        }
+
+        & .content-robusta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 17px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 30%;
+                margin-bottom: 8%;
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .ia-robusta{
+        margin-top: 14%;
+
+        & .title-robusta{
+            & h2{
+                font-size: 2.8rem;
+                
+            }
+        }
+
+        & .content-robusta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+            }
+            & img{
+                width: 30%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .ia-robusta{
+        margin-top: 5%;
+
+        & .title-robusta{
+            & h2{
+                font-size: 3.6rem;
+                
+            }
+        }
+
+        & .content-robusta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & p{
+                font-size: 20px;
+            }
+            & img{
+                width: 35%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  EDUCATIVO                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .educativo{
+        margin: 25% 5%;
+
+        & .title-educacion{
+            font-size: 1.5rem;
+        }
+
+        & #concept-edu{
+            font-size: 16px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 16px;
+                }
+
+                & img{  
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .educativo{
+        margin: 18% 5%;
+
+        & .title-educacion{
+            font-size: 2.5rem;
+        }
+
+        & #concept-edu{
+            font-size: 18px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .educativo{
+        margin: 15% 5%;
+
+        & .title-educacion{
+            font-size: 3rem;
+        }
+
+        & #concept-edu{
+            font-size: 18.2px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .educativo{
+        margin: 13% 5%;
+
+        & .title-educacion{
+            font-size: 3rem;
+        }
+
+        & #concept-edu{
+            font-size: 22px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 20px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .educativo{
+        margin: 7% 5%;
+
+        & .title-educacion{
+            font-size: 3.5rem;
+        }
+
+        & #concept-edu{
+            font-size: 18px;
+        }
+
+        & .list-educacion{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -400,10 +959,11 @@
 /* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
 /* ////////// ////////// //////////                  FOOTER                       ////////// ////////// //////////      */
 /* Estilos para móviles */
-@media (max-width: 576px) {
+@media (max-width: 577px) {
     footer {
         width: 100%;
         bottom: 0px;
+        margin-top: 35%;
     }
 }
 

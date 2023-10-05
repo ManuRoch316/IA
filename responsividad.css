@@ -339,7 +339,7 @@
             & div{
     
                 & img{
-                    width: 10%;
+                    width: 45%;
                 }
             }
         }
@@ -361,7 +361,7 @@
             & div{
     
                 & img{
-                    width: 65%;
+                    width: 45%;
                 }
             }
         }
@@ -461,7 +461,10 @@
             }
     
             & div{
-    
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
                 & img{
                     width: 40%;
                 }
@@ -483,7 +486,11 @@
             }
     
             & div{
-    
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+
                 & img{
                     width: 40%;
                     margin-bottom: 2rem;
@@ -631,7 +638,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-bottom: 25%;
+            padding-bottom: 30%;
 
             & p{
                 font-size: 20px;
@@ -1995,43 +2002,68 @@
 /* ////////// ////////// //////////                  FOOTER                       ////////// ////////// //////////      */
 /* Estilos para móviles */
 @media (max-width: 577px) {
+    body{
+        position: relative;
+        padding-bottom: 3rem;
+
+    }
     footer {
+        position: absolute;
         width: 100%;
-        bottom: 0px;
-        margin-top: 5%;
+        padding: 1px;
+        bottom: 0%;
+        
     }
 }
 
 /* Estilos para tablets */
 @media (min-width: 577px) and (max-width: 768px) {
+    body{
+        padding-bottom: 3em;
+
+    }
     footer {
         width: 100%;
+        bottom: 0%;
+        
     }
 }
 
 /* Estilos para laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
     body{
-        position: relative;
+        padding-bottom: 3em;
+
     }
     footer {
-        position: absolute;
         width: 100%;
-        bottom: 0%
+        bottom: 0%;
+        
+    }
+}
 
+@media (min-width: 900px) and (max-width: 1024px){
+    body{
+        padding-bottom: 3em;
+
+    }
+    footer {
+        width: 100%;
+        bottom: 0%;
+        
     }
 }
 
 /* Estilos para ordenadores */
-@media (min-width: 1025px) {
+@media (min-width: 1025px){
     body{
-        position: relative;
+        padding-bottom: 3em;
+
     }
     footer {
-        position: absolute;
         width: 100%;
-        bottom: 0%
-
+        bottom: 0%;
+        
     }
 }
 

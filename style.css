@@ -13,6 +13,7 @@ body{
     min-height: 100%;
     box-sizing: border-box;
     position: relative;
+    padding-bottom: 3em;
 }
 
 :root /*Colores predeterminados*/
@@ -656,7 +657,7 @@ header{
     }
 }
 
-.footer {
+footer {
     padding: 1.5rem 0;/*espacio por dentro*/
     text-align: justify;
     background-color: var(--black);

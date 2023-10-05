@@ -616,7 +616,7 @@
 }
 
 /* Estilos para ordenadores */
-@media (min-width: 1025px) and (max-width: 1500px){
+@media (min-width: 1025px) and (max-width: 1700px){
     .ia-debil{
         margin-top: 7%;
         margin-bottom: 5%;
@@ -631,7 +631,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-bottom: 10%;
+            padding-bottom: 25%;
 
             & p{
                 font-size: 20px;
@@ -784,7 +784,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-bottom: 10%;
+            padding-bottom: 22%;
 
             & p{
                 font-size: 20px;

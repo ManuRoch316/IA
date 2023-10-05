@@ -50,8 +50,8 @@
 
 
 
-/*      RESPONSIVIDAD EN LAS DEMAS PAGINAS      */
-
+/* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  INICIO                       ////////// ////////// //////////      */
 @media (max-width: 576px) {
     .hero {
         margin-top: 25%;
@@ -136,9 +136,272 @@
 
 
 
+/* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  HISTORIA                       ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .historia{
+        margin-top: 28%;
+
+        & .title-historia{
+            font-size: 3rem;
+        }
+    
+        & p{
+            font-size: 15px;
+        }
+
+        & .video-history{
+            width: 95%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 80%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .historia{
+        margin-top: 22%;
+
+        & .title-historia{
+            font-size: 2.8rem;
+        }
+    
+        & p{
+            font-size: 15px;
+        }
+
+        & .video-history{
+            width: 95%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 60%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .historia{
+        margin-top: 20%;
+
+        & .title-historia{
+            font-size: 3rem;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+
+        & .video-history{
+            width: 95%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 65%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 65%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) {
+    .historia{
+        margin-top: 8%;
+
+        & .title-historia{
+            font-size: 3rem;
+        }
+    
+        & p{
+            font-size: 23px;
+        }
+
+        & .video-history{
+            width: 95%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 70%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
 
 
-/*          FOOTER          */
+
+
+
+
+
+
+
+
+
+
+/* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  FOOTER                       ////////// ////////// //////////      */
 /* Estilos para móviles */
 @media (max-width: 576px) {
     footer {

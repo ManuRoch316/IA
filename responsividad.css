@@ -46,58 +46,6 @@
     }
 }
 
-/*BARRA NAV ORDENADORES*/
-@media(min-width: 1000px){
-    .header label{
-        display: initial;
-    }
-
-    .header{
-        padding: 20px 10%;
-    }
-
-    .header .navigation{
-        position: absolute;
-        top: 100%;
-        left: 0%;
-        right: 0%;
-        background-color: rgba(1, 1, 1, 0.7);
-        display: none;
-    }
-
-    .header .navigation ul li{
-        width: 100%;
-    }
-
-    .header .navigation ul li a{
-        padding:  8px 30px 8px 10%;
-    }
-
-    .header .navigation ul li ul{
-        position: relative;
-        width: 100%;
-        left: 0%;
-    }
-
-    .header .navigation ul li ul li{
-        background-color: rgba(1, 1, 1, 0.7);
-    }
-
-    .header .navigation ul li ul li{
-        position: relative;
-        width: 100%;
-        left: 0;
-    }
-
-    #toggle:checked ~ .navigation{
-        display: block;
-    }
-}
-
-
-
-
-
 /* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
 /* ////////// ////////// //////////                  INICIO                       ////////// ////////// //////////      */
 @media (max-width: 576px) {
@@ -115,6 +63,7 @@
 
     #concept img {
         width: 100%;
+        margin-bottom: 10rem;
     }
 }
 
@@ -454,7 +403,7 @@
 @media (max-width: 576px) {
     footer {
         width: 100%;
-
+        bottom: 0px;
     }
 }
 

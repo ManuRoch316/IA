@@ -945,6 +945,1024 @@
 }
 
 
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  LABORAL                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .laboral{
+        margin: 25% 5%;
+
+        & .title-laboral{
+            font-size: 1.5rem;
+        }
+
+        & #concept-lab{
+            font-size: 16px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 16px;
+                }
+
+                & img{  
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .laboral{
+        margin: 18% 5%;
+
+        & .title-laboral{
+            font-size: 2.5rem;
+        }
+
+        & #concept-lab{
+            font-size: 18px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .laboral{
+        margin: 15% 5%;
+
+        & .title-laboral{
+            font-size: 3rem;
+        }
+
+        & #concept-lab{
+            font-size: 18.2px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .laboral{
+        margin: 13% 5%;
+
+        & .title-laboral{
+            font-size: 3rem;
+        }
+
+        & #concept-lab{
+            font-size: 22px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 20px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .laboral{
+        margin: 5% 5%;
+
+        & .title-laboral{
+            font-size: 3.5rem;
+        }
+
+        & #concept-lab{
+            font-size: 18px;
+        }
+
+        & .list-laboral{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  ENTRETENIMIENTO                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .entretenimiento{
+        margin: 25% 5%;
+
+        & .title-entre{
+            font-size: 1.5rem;
+        }
+
+        & #concept-entre{
+            font-size: 16px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 16px;
+                }
+
+                & img{  
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .entretenimiento{
+        margin: 18% 5%;
+
+        & .title-entre{
+            font-size: 2.5rem;
+        }
+
+        & #concept-entre{
+            font-size: 18px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .entretenimiento{
+        margin: 15% 5%;
+
+        & .title-entre{
+            font-size: 3rem;
+        }
+
+        & #concept-entre{
+            font-size: 18.2px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .entretenimiento{
+        margin: 13% 5%;
+
+        & .title-entre{
+            font-size: 3rem;
+        }
+
+        & #concept-entre{
+            font-size: 22px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 20px;
+                }
+
+                & img{  
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .entretenimiento{
+        margin: 5% 5%;
+
+        & .title-entre{
+            font-size: 3.5rem;
+        }
+
+        & #concept-ente{
+            font-size: 18px;
+        }
+
+        & .list-entre{
+            & div{
+                margin-bottom: 2rem;
+                & li{
+                    list-style: none;
+                    font-size: 18px;
+                }
+
+                & img{  
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  LENGUAJES CERRADOS                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .cod-cerrado{
+        margin: 25% 5%;
+
+        & .title-cerrado{
+            font-size: 1.5rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 1rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 16px;
+        }
+
+        & #list-cerrado{
+            & li{
+                font-size: 16px;
+            }
+        }
+
+        & .grid-cerrado{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .cerrado{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 60%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .cod-cerrado{
+        margin: 18% 5%;
+
+        & .title-cerrado{
+            font-size: 2rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 1.5rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 18px;
+        }
+
+        & #list-cerrado{
+            & li{
+                font-size: 18px;
+            }
+        }
+
+        & .grid-cerrado{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .cerrado{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 40%;
+                }
+
+                & p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cod-cerrado{
+        margin: 15% 5%;
+
+        & .title-cerrado{
+            font-size: 2.7rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 2rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-cerrado{
+            & li{
+                font-size: 19.5px;
+            }
+        }
+
+        & .grid-cerrado{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .cerrado{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 50%;
+                }
+
+                & p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .cod-cerrado{
+        margin: 15% 5%;
+
+        & .title-cerrado{
+            font-size: 2.8rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 2rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-cerrado{
+            & li{
+                font-size: 20px;
+            }
+        }
+
+        & .grid-cerrado{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .cerrado{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 15.5px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .cod-cerrado{
+        margin: 7% 5%;
+
+        & .title-cerrado{
+            font-size: 3.5rem;
+        }
+
+        & .subtitle-cerrado{
+            font-size: 2.5rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-cerrado{
+            & li{
+                font-size: 18px;
+            }
+        }
+
+        & .grid-cerrado{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .cerrado{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  LENGUAJES ABIERTOS                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .cod-abierto{
+        margin: 25% 5%;
+
+        & .title-abierto{
+            font-size: 1.5rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 1rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 16px;
+        }
+
+        & #list-abierto{
+            & li{
+                font-size: 16px;
+            }
+        }
+
+        & .grid-abierto{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .abierto{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 60%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .cod-abierto{
+        margin: 18% 5%;
+
+        & .title-abierto{
+            font-size: 2rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 1.5rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 18px;
+        }
+
+        & #list-abierto{
+            & li{
+                font-size: 18px;
+            }
+        }
+
+        & .grid-abierto{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .abierto{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 40%;
+                }
+
+                & p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cod-abierto{
+        margin: 15% 5%;
+
+        & .title-abierto{
+            font-size: 2.7rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 2rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-abierto{
+            & li{
+                font-size: 19.5px;
+            }
+        }
+
+        & .grid-abierto{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .abierto{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 50%;
+                }
+
+                & p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .cod-abierto{
+        margin: 15% 5%;
+
+        & .title-abierto{
+            font-size: 2.8rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 2rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-abierto{
+            & li{
+                font-size: 20px;
+            }
+        }
+
+        & .grid-abierto{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .abierto{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 15.5px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) and (max-width: 1500px){
+    .cod-abierto{
+        margin: 7% 5%;
+
+        & .title-abierto{
+            font-size: 3.5rem;
+        }
+
+        & .subtitle-abierto{
+            font-size: 2.5rem;
+        }
+
+        & #parrafo1, #parrafo2, #parrafo3{
+            margin-top: 2%;
+            font-size: 20px;
+        }
+
+        & #list-abierto{
+            & li{
+                font-size: 18px;
+            }
+        }
+
+        & .grid-abierto{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .abierto{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
+/* ////////// ////////// //////////                  PERSONAJES DESTACADOS                     ////////// ////////// //////////      */
+@media (max-width: 576px) {
+    .personajes-ia{
+        margin: 25% 5%;
+
+        & .title-personajes{
+            font-size: 2rem ;
+        }
+
+        & .content-personajes{
+            font-size: 18px;
+        }
+
+        & .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .personaje{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .personajes-ia{
+        margin: 25% 5%;
+
+        & .title-personajes{
+            font-size: 2rem ;
+        }
+
+        & .content-personajes{
+            font-size: 18px;
+        }
+
+        & .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .personaje{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .personajes-ia{
+        margin: 15% 5%;
+
+        & .title-personajes{
+            font-size: 3.2rem ;
+        }
+
+        & .content-personajes{
+            font-size: 20px;
+        }
+
+        & .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .personaje{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .personajes-ia{
+        margin: 15% 5%;
+
+        & .title-personajes{
+            font-size: 3.2rem ;
+        }
+
+        & .content-personajes{
+            font-size: 20px;
+        }
+
+        & .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .personaje{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) {
+    .personajes-ia{
+        margin: 6% 5%;
+
+        & .title-personajes{
+            font-size: 4.2rem ;
+        }
+
+        & .content-personajes{
+            font-size: 22px;
+        }
+
+        & .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+            & .personaje{
+
+                & .name{
+                    font-size: 100%;
+
+                    & h2{
+                        font-size: 2rem;
+                    }
+                }
+
+                & img{
+                    width: 55%;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
 
 
 

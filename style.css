@@ -10,8 +10,9 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    min-height: 100vh;
+    min-height: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 :root /*Colores predeterminados*/
@@ -147,7 +148,7 @@ header{
     }
 
     & #concept{
-        margin: 13px;
+        margin: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -657,12 +658,13 @@ header{
 
 .footer {
     padding: 1.5rem 0;/*espacio por dentro*/
-    margin-top: .3rem;/*espacio por fuera*/
     text-align: justify;
     background-color: var(--black);
     color: var(--turq);
     font-size: 1rem;
     text-align: center;
+    position: absolute;
+    width: 100%;
 }
 
 /*###########################################*/

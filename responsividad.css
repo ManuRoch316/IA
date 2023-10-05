@@ -67,7 +67,7 @@
         & #concept {
             & img {
                 width: 90%;
-                margin-bottom: 60%;
+                margin-bottom: 4%;
             }
         }
     }
@@ -93,7 +93,7 @@
         & #concept {
             & img {
                 width: 90%;
-                margin-bottom: 60%;
+                margin-bottom: 5%;
             }
         }
     }
@@ -127,7 +127,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .hero {
-        margin-top: 8%;
+        margin-top: 10%;
 
         & #titulo {
             font-size: 4rem;
@@ -144,7 +144,8 @@
         & #concept {
             & img {
                 width: 50%;
-                margin-bottom: 60%;
+                margin-top: 2%;
+                margin-bottom: 10%;
             }
         }
     }
@@ -153,7 +154,7 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) {
     .hero {
-        margin: 7%;
+        margin: 7% 7% 0% 7%;
 
         & #titulo {
             font-size: 5rem;
@@ -169,7 +170,7 @@
     
         & #concept img {
             width: 40%;
-            margin-bottom: 20%;
+            margin-bottom: 10%;
         }
     }
 }
@@ -338,7 +339,7 @@
             & div{
     
                 & img{
-                    width: 65%;
+                    width: 10%;
                 }
             }
         }
@@ -434,35 +435,35 @@
     .historia{
         margin-top: 7%;
         & .title-historia{
-            font-size: 4.4rem;
+            font-size: 3.6rem;
         }
     
         & p{
-            font-size: 20px;
+            font-size: 18px;
         }
 
         & .video-history{
-            width: 50%;
+            width: 45%;
         }
     
         & .dato{
     
             & h2{
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
     
             & h3{
-                font-size: 1.6rem;
+                font-size: 1.2rem;
             }
     
             & p{
-                font-size: 20px;
+                font-size: 18px;
             }
     
             & div{
     
                 & img{
-                    width: 50%;
+                    width: 40%;
                 }
             }
         }
@@ -470,21 +471,22 @@
         & .dato2{
     
             & h2{
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
     
             & h3{
-                font-size: 1.6rem;
+                font-size: 1.2rem;
             }
     
             & p{
-                font-size: 20px;
+                font-size: 18px;
             }
     
             & div{
     
                 & img{
-                    width: 50%;
+                    width: 40%;
+                    margin-bottom: 2rem;
                 }
             }
         }
@@ -538,6 +540,7 @@
         & .content-debil{
             display: flex;
             flex-direction: column;
+            padding: 10%;
 
             & p{
                 font-size: 18px;
@@ -569,6 +572,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 10%;
 
             & p{
                 font-size: 18px;
@@ -597,6 +601,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 12%;
 
             & p{
                 font-size: 18px;
@@ -613,12 +618,12 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) and (max-width: 1500px){
     .ia-debil{
-        margin-top: 5%;
+        margin-top: 7%;
+        margin-bottom: 5%;
 
         & .title-debil{
             & h2{
                 font-size: 3.6rem;
-                
             }
         }
 
@@ -626,14 +631,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 10%;
 
             & p{
-                font-size: 19px;
+                font-size: 20px;
                 margin-bottom: 1.5rem;
             }
             & img{
-                width: 37%;
-                margin-bottom: 5%;
+                width: 40%;
+                
             }
         }
     }
@@ -764,7 +770,8 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) and (max-width: 1500px){
     .ia-robusta{
-        margin-top: 5%;
+        margin-top: 7%;
+        margin-bottom: 5%;
 
         & .title-robusta{
             & h2{
@@ -777,6 +784,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 10%;
 
             & p{
                 font-size: 20px;
@@ -860,6 +868,8 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .educativo{
         margin: 15% 5%;
+        margin-bottom: 10%;
+        padding-bottom: 10%;
 
         & .title-educacion{
             font-size: 3rem;
@@ -927,6 +937,7 @@
         }
 
         & .list-educacion{
+            padding-bottom: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1018,6 +1029,7 @@
         }
 
         & .list-laboral{
+            padding-bottom: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1046,6 +1058,7 @@
         }
 
         & .list-laboral{
+            padding: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1075,6 +1088,7 @@
         }
 
         & .list-laboral{
+            padding: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1170,6 +1184,7 @@
         }
 
         & .list-entre{
+            padding: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1198,6 +1213,7 @@
         }
 
         & .list-entre{
+            padding-bottom: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1227,6 +1243,7 @@
         }
 
         & .list-entre{
+            padding-bottom: 5%;
             & div{
                 margin-bottom: 2rem;
                 & li{
@@ -1356,7 +1373,7 @@
 /* Estilos para laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
     .cod-cerrado{
-        margin: 15% 5%;
+        margin: 10% 5%;
 
         & .title-cerrado{
             font-size: 2.7rem;
@@ -1405,7 +1422,7 @@
 
 @media (min-width: 820px) and (max-width: 1024px) {
     .cod-cerrado{
-        margin: 15% 5%;
+        margin: 10% 5%;
 
         & .title-cerrado{
             font-size: 2.8rem;
@@ -1458,7 +1475,7 @@
         margin: 7% 5%;
 
         & .title-cerrado{
-            font-size: 3.5rem;
+            font-size: 3.2rem;
         }
 
         & .subtitle-cerrado{
@@ -1849,7 +1866,7 @@
 /* Estilos para laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
     .personajes-ia{
-        margin: 15% 5%;
+        margin: 13% 5%;
 
         & .title-personajes{
             font-size: 3.2rem ;
@@ -1862,6 +1879,7 @@
         & .grid{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+            padding-bottom: 5%;
 
             & .personaje{
 
@@ -1887,7 +1905,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .personajes-ia{
-        margin: 15% 5%;
+        margin: 8% 5%;
 
         & .title-personajes{
             font-size: 3.2rem ;
@@ -1926,7 +1944,7 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) {
     .personajes-ia{
-        margin: 6% 5%;
+        margin: 8% 5%;
 
         & .title-personajes{
             font-size: 4.2rem ;
@@ -1939,6 +1957,7 @@
         & .grid{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+            padding-bottom: 5%;
 
             & .personaje{
 
@@ -1979,7 +1998,7 @@
     footer {
         width: 100%;
         bottom: 0px;
-        margin-top: 35%;
+        margin-top: 5%;
     }
 }
 
@@ -1992,16 +2011,27 @@
 
 /* Estilos para laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        position: relative;
+    }
     footer {
+        position: absolute;
         width: 100%;
-        bottom: 10%
+        bottom: 0%
+
     }
 }
 
 /* Estilos para ordenadores */
 @media (min-width: 1025px) {
+    body{
+        position: relative;
+    }
     footer {
+        position: absolute;
         width: 100%;
+        bottom: 0%
+
     }
 }
 

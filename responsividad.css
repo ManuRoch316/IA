@@ -433,10 +433,8 @@
 @media (min-width: 1025px){
     .historia{
         margin-top: 7%;
-        margin-bottom: 5%;
-
         & .title-historia{
-            font-size: 5rem;
+            font-size: 4.4rem;
         }
     
         & p{
@@ -619,7 +617,7 @@
 
         & .title-debil{
             & h2{
-                font-size: 4.3rem;
+                font-size: 3.6rem;
                 
             }
         }

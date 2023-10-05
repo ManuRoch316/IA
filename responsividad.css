@@ -138,6 +138,68 @@
 
 /* ////////// ////////// //////////     RESPONSIVIDAD EN LAS DEMAS PAGINAS ////////// ////////// //////////      */
 /* ////////// ////////// //////////                  HISTORIA                       ////////// ////////// //////////      */
+@media (max-width: 360px) and (max-width: 575px){
+    .historia{
+        margin-top: 28%;
+
+        & .title-historia{
+            font-size: 3rem;
+        }
+    
+        & p{
+            font-size: 15px;
+        }
+
+        & .video-history{
+            width: 65%;
+        }
+    
+        & .dato{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 60%;
+                }
+            }
+        }
+
+        & .dato2{
+    
+            & h2{
+                font-size: 2.5rem;
+            }
+    
+            & h3{
+                font-size: 1.6rem;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+    
+            & div{
+    
+                & img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .historia{
         margin-top: 28%;

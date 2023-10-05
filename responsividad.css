@@ -340,7 +340,7 @@
         }
 
         & .video-history{
-            width: 95%;
+            width: 50%;
         }
     
         & .dato{
@@ -360,7 +360,7 @@
             & div{
     
                 & img{
-                    width: 70%;
+                    width: 50%;
                 }
             }
         }
@@ -382,7 +382,7 @@
             & div{
     
                 & img{
-                    width: 70%;
+                    width: 50%;
                 }
             }
         }

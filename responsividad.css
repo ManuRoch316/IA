@@ -326,7 +326,7 @@
 /* Estilos para ordenadores */
 @media (min-width: 1025px) and (max-width: 1500px){
     .historia{
-        margin-top: 8%;
+        margin-top: 7%;
 
         & .title-historia{
             font-size: 3rem;
